@@ -26,6 +26,11 @@ qualquer stack (HTML/CSS, React, Next.js, Vue, Svelte, Astro, Tailwind):
    criou/alterou, e corrija o que ele apontar (acessibilidade, focus states,
    forms, etc.).
 
+4. **Para verificar o resultado no navegador** (screenshots, testar interações,
+   conferir se a página funciona de verdade), use a skill `playwright-cli`. O
+   inspetor da `design-taste-frontend` já faz isso no fluxo dele; use a
+   `playwright-cli` para checagens adicionais ou automação de browser.
+
 ## Onde cada ferramenta vive
 
 | Ferramenta | Local | Para quê |
@@ -33,6 +38,7 @@ qualquer stack (HTML/CSS, React, Next.js, Vue, Svelte, Astro, Tailwind):
 | Skill `design-taste-frontend` | `.agents/skills/design-taste-frontend/` (symlink em `.claude/skills/`) | Direção de arte e house style anti-slop |
 | Comando `/web-interface-guidelines` | `.claude/commands/web-interface-guidelines.md` | Revisão de código de UI (Vercel guidelines) |
 | Biblioteca `DESIGN.md` | `design-md-library/design-md/<marca>/DESIGN.md` | Linguagens visuais de referência (84 marcas) |
+| Skill `playwright-cli` | `.claude/skills/playwright-cli/` | Automação de browser, screenshots e testes |
 
 ## Ordem resumida
 
