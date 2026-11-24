@@ -3,8 +3,8 @@
 Informações fixas da operação, usadas nos cálculos do plano de otimização.
 
 ## Oferta e ticket
-- **Preço do produto principal:** **€ 7,99** (padrão das ofertas)
-- **Order bumps:** **4, 3 e 2** (⚠️ confirmar se os valores são em €)
+- **Preço do produto principal:** **€ 7,99** (padrão das ofertas). Todos os preços são em euro.
+- **Order bumps:** **€ 4, € 3 e € 2**
 - **Recebimento:** em **dólar** (US$)
 - **Conta de anúncio:** em dólar, paga pela Wise
 - **Hotmart:** saque a partir de D15, com antecipação possível para vendas no cartão
