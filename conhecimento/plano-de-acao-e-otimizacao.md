@@ -1,176 +1,217 @@
-# Plano de ação e plano de otimização
+# Plano de ação e de otimização (v2)
 
-Baseado **somente** nas respostas do mentor na call de 23/11/2026 (resumo em `2026-11-23-call-mentoria-gerenciador.md`).
-Onde o mentor não deu a regra exata, está marcado **⚠️ A CONFIRMAR**. Leve essas dúvidas ao grupo ou à próxima aula ao vivo.
+Baseado nas respostas do mentor na call de 23/11/2026 (resumo em `2026-11-23-call-mentoria-gerenciador.md`) e na estrutura que vocês definiram depois:
+
+> **Campanha de TESTE:** 1 campanha, 1 conjunto e 5 a 10 criativos. É onde **todo criativo novo** entra.
+> **Campanha de ESCALA:** CBO 1-1-1, só com um criativo vencedor. É onde o orçamento sobe 20% ao dia.
+
+Legenda: ✅ = dito pelo mentor · 💡 = sugestão minha (Claude) · ⚠️ = confirmar no grupo
 
 ---
 
-# PARTE 1: PLANO DE AÇÃO
+# PARTE 1: A ESTRUTURA
+
+```
+CONTA DE ANÚNCIO (1 por oferta) ✅
+│
+├── 🧪 CAMPANHA DE TESTE: [Oferta] [País] TESTE
+│     └── 1 conjunto
+│           └── 5 a 10 criativos ativos
+│                 ├── criativo perdedor  → desativa
+│                 ├── criativo sem gasto → não mexe
+│                 ├── criativo vencedor  → continua aqui E é copiado para uma campanha de escala
+│                 └── vaga aberta        → entra criativo NOVO
+│
+├── 🚀 CAMPANHA DE ESCALA: [Oferta] [País] ESCALA Criativo X  (CBO 1-1-1)
+│     └── 1 conjunto → 1 criativo vencedor → +20% de orçamento ao dia
+│
+├── 🚀 CAMPANHA DE ESCALA: Criativo Y  (CBO 1-1-1)
+└── ...
+```
+
+- **Uma conta de anúncio por oferta.** Todos os países dessa oferta ficam na mesma conta. ✅
+- 💡 **Uma campanha de teste por país.** Assim vocês sabem qual país vende. Exemplo: `EDU-INF | PT | TESTE` e `EDU-INF | IT | TESTE`.
+- CBO com **alto volume** nas duas campanhas, a de teste e a de escala. Bid Cap só depois de 30 a 50 vendas. ✅
+
+---
+
+# PARTE 2: PLANO DE AÇÃO
 
 ## Fase 0: Preparação (dias 1 a 3)
 
-**Objetivo:** fechar a lacuna teórica e montar a base antes de gastar mais.
-
 ### Estudo (dividir entre os dois)
-- [ ] Assistir **"Escalando uma oferta até R$ 1 mil de lucro por dia, na prática"**. É a prioridade nº 1. Anotar: quando ele diminui orçamento, quanto diminui, quando desativa e quando aumenta.
-- [ ] Assistir ao vídeo do **Henrique Salvador** (rodando em vários países).
-- [ ] Assistir aos **2 vídeos extras** que o mentor mandou no grupo depois da call.
-- [ ] Assistir à aula do **Alanzord** sobre tráfego.
-- [ ] Na área de membros, assistir **todas** as aulas de campanha e gerenciador que ainda não viram.
-- [ ] Achar o **módulo do dashboard** na área de membros e seguir o passo a passo.
+- [ ] ✅ **"Escalando uma oferta até R$ 1 mil de lucro por dia, na prática"**. É a prioridade nº 1. Anotar quando ele diminui orçamento, quanto diminui e quando desativa.
+- [ ] ✅ Vídeo do **Henrique Salvador** (rodando em vários países).
+- [ ] ✅ Os **2 vídeos extras** mandados no grupo depois da call.
+- [ ] ✅ Aula do **Alanzord** e todas as aulas de campanha e gerenciador da área de membros.
+- [ ] ✅ Módulo do **dashboard** na área de membros.
 
 ### Estrutura
-- [ ] Conectar as campanhas ao **dashboard da mentoria**.
-- [ ] Separar **uma conta de anúncio só para a oferta de educação infantil** (regra: uma oferta por conta). Manter em dólar, pagando pela Wise, como já está.
-- [ ] Decidir o pixel. Se essa oferta já tem cerca de 50 vendas no pixel, **reutilize o pixel**. Se não tiver, **use um pixel novo para o nicho**.
-- [ ] Entrar no calendário das **aulas ao vivo** e combinar quem entra em cada uma (ideal: os dois).
+- [ ] ✅ Conectar as campanhas ao **dashboard da mentoria**.
+- [ ] ✅ Separar **uma conta de anúncio só para educação infantil**, em dólar, paga pela Wise.
+- [ ] ✅ Pixel: se o nicho já tem ~50 vendas, **reutiliza**. Se não tem, **pixel novo**.
+- [ ] ✅ Combinar quem entra em cada **aula ao vivo** (ideal: os dois).
 
 ### Caixa
-- [ ] Definir o caixa de teste. Meta do mentor: **R$ 120 a 150 por dia**, cerca de **R$ 3.600 a 4.500 por mês**. Vocês disseram que conseguem R$ 3 mil cada, R$ 6 mil no total, então dá para cobrir.
-- [ ] Lembrar do fluxo da Hotmart: o saque começa em **D15**, e vendas no cartão podem ser antecipadas.
+- [ ] ✅ Investimento alvo: **R$ 120 a 150 por dia** (cerca de R$ 3.600 a 4.500 por mês).
+- [ ] ✅ Hotmart: o saque começa em **D15**, e vendas no cartão podem ser antecipadas.
 
-### Mandar no grupo (dúvidas pendentes)
-- [ ] "Qual é o critério para considerar um **criativo validado**? Quantas vendas ou qual ROAS?"
-- [ ] "Com R$ 120 a 150 por dia e 50 criativos em CBO 1-1-1, quantas campanhas subo por vez e com qual orçamento cada uma?" ⚠️ Veja a nota na Fase 1.
+## Fase 1: Lançamento (dias 4 a 10)
 
----
+- [ ] ✅ Oferta: **educação infantil**, a que vocês criaram e que já vendeu.
+- [ ] ✅ Produzir o **primeiro estoque de criativos**: a meta é chegar a **~50**, feitos no Grok e no Claude, em todos os estilos.
+- [ ] ✅ Lançar em **3 países ao mesmo tempo** (PT + IT + FR) na mesma conta.
+- [ ] 💡 ⚠️ Funil e quiz traduzidos para o **idioma de cada país**.
+- [ ] Subir **uma campanha de TESTE por país**, cada uma com **5 a 10 criativos** do estoque.
+- [ ] 💡 Orçamento sugerido no início, dentro de R$ 120 a 150 por dia: cerca de **R$ 40 por dia em cada campanha de teste** (3 países = R$ 120). Conforme surgem vencedores, o caixa passa para as campanhas de escala.
 
-## Fase 1: Relançamento da oferta (dias 4 a 10)
+## Fase 2: Ciclo contínuo de teste e escala (a partir do dia 4, todos os dias)
 
-**Oferta:** educação infantil, a que vocês criaram e que já vendeu. O mentor foi claro: **insistir nela** em vez de minerar outra. O quiz copiado da aula fica de lado.
+É o coração do plano. Ver a Parte 3.
 
-### Criativos
-- [ ] Produzir **cerca de 50 criativos** no Grok e no Claude, em **todos os estilos possíveis**: foto, vídeo, ângulos de venda diferentes, copies diferentes.
-- [ ] Mínimo absoluto para subir: 5. A meta é 50.
+- [ ] ✅ Cada país roda **no mínimo 5 dias** antes de qualquer decisão sobre o país.
+- [ ] ✅ Oferta que vendeu roda **no mínimo 14 dias**.
+- [ ] ✅ País sem ROI → testar em **outro país**. Não trocar a oferta.
+- [ ] ✅ País vendendo → levar para **mais países**.
 
-### Países: lançar ao mesmo tempo
-- [ ] Lançar em **3 países em paralelo** na **mesma conta de anúncio**: Portugal + Itália + um terceiro (o mentor citou a França).
-- [ ] ⚠️ A CONFIRMAR: o funil e o quiz precisam estar no **idioma de cada país**. Isso é dedução minha, não foi falado na call.
-- [ ] Nunca testar país por país em sequência. Isso transforma 2 semanas em 3 meses.
+## Fase 3: Bid Cap (depois de 30 a 50 vendas no pixel)
 
-### Estrutura no gerenciador
-- [ ] **CBO 1-1-1** (1 campanha, 1 conjunto, 1 criativo) com **alto volume**.
-- [ ] **Não usar ABO** e **não usar Bid Cap ainda**. Antes de 30 a 50 vendas, o Bid Cap não gasta nem vende.
-- [ ] Orçamento inicial por campanha: o valor da aula (o "9" citado, por volta de R$ 40 por dia).
-
-> ⚠️ **Nota de conta:** com 50 criativos em 1-1-1, cada um com cerca de R$ 40, seriam R$ 2.000 por dia, bem acima do caixa. Até o mentor responder, uma saída possível é subir os criativos **em lotes** dentro do orçamento diário e repor os desativados com criativos novos do estoque. Essa sugestão é minha. Confirme no grupo antes.
-
----
-
-## Fase 2: Validação (dias 10 a 24)
-
-- [ ] Cada país roda **no mínimo 5 dias** antes de qualquer decisão sobre o país.
-- [ ] Se a oferta **vendeu**, ela roda **no mínimo 14 dias**.
-- [ ] Rodar a otimização diária da Parte 2 e **postar as métricas no grupo todos os dias**.
-- [ ] Um país foi bem? Leve a oferta para **mais países**. O mentor disse que, com 5 países ao mesmo tempo, a tendência é fechar positivo todo dia.
-- [ ] Um país não deu ROI? Pode ser que alguém já esteja rodando algo parecido lá. **Troque de país**, não de oferta.
+- [ ] ✅ A campanha de escala com **maior ROAS** vai para **Bid Cap**.
+  - **Opção A:** transformar essa campanha em Bid Cap e desativar as outras de escala.
+  - **Opção B:** manter as CBO ativas, se estiverem muito boas, e abrir **outra conta** com CBO em Bid Cap.
+- [ ] A campanha de teste **continua rodando** recebendo criativos novos.
 
 ---
 
-## Fase 3: Escala (depois de 30 a 50 vendas no pixel)
+# PARTE 3: PLANO DE OTIMIZAÇÃO
 
-O número exato depende do país e do ticket.
+## Rotina diária, na ordem
 
-- [ ] Escolher a campanha 1-1-1 do **criativo com maior ROAS**.
-- [ ] Escolher um dos dois caminhos:
-  - **Opção A:** transformar essa campanha em **Bid Cap** e **desativar as outras**.
-  - **Opção B:** se as CBO estiverem muito boas, **mantê-las ativas** e abrir **outra conta de anúncio** com CBO em Bid Cap.
-- [ ] Continuar produzindo criativos. Uma oferta é feita para chegar a cerca de **2.000 vendas**, então é jogo de longo prazo.
-- [ ] Só depois disso pensar em uma **nova oferta**, e ela vai em **nova conta de anúncio**.
-
----
-
-# PARTE 2: PLANO DE OTIMIZAÇÃO
-
-## Rotina diária (todo dia, mesmo horário)
-
-1. Abrir o gerenciador ou o dashboard e olhar **cada campanha 1-1-1**.
-2. Para cada uma, aplicar a **árvore de decisão** abaixo.
-3. Registrar o que foi feito.
-4. **Postar no grupo** usando o modelo do fim deste documento.
-
-## Árvore de decisão: CBO alto volume
+### 1) Campanha de TESTE: revisar cada criativo
 
 ```
-Para cada campanha / criativo:
+Para cada criativo da campanha de teste:
 
 Está gastando?
-├── NÃO ──► NÃO MEXE. (Se não gasta, não muda nada.)
+├── NÃO ──► NÃO MEXE ✅
 └── SIM ──► Já gastou 1 ticket (o valor do preço do produto)?
-            ├── NÃO ──► Espera. Ainda não dá para decidir.
+            ├── NÃO ──► Espera
             └── SIM ──► Quantas vendas?
-                        ├── 0 vendas ──► DESATIVA
-                        ├── 1 venda  ──► ⚠️ A CONFIRMAR (mentor não falou)
-                        └── 2+ vendas ─► AUMENTA ORÇAMENTO ~20% ao dia
-                                         (dosar conforme as métricas)
-
-É o melhor criativo da conta?
-└── SIM ──► ISOLA num 1-1-1 próprio.
+                        ├── 0 vendas ──► DESATIVA ✅ (abre uma vaga)
+                        ├── 1 venda  ──► ⚠️ A CONFIRMAR (💡 até lá: deixa rodando até 2 tickets)
+                        └── 2+ vendas ─► VENCEDOR 🏆 → vai para o passo 2
 ```
 
-## Tabela rápida
+### 2) Vencedor encontrado: criar a campanha de ESCALA
+- [ ] Criar uma **CBO 1-1-1 nova** só com esse criativo ✅ ("isola ele no triplo um").
+- [ ] Começar com o **orçamento inicial** (o "9", cerca de R$ 40 por dia).
+- [ ] 💡 **Não pausar** o vencedor na campanha de teste. Ele continua lá.
+- [ ] 💡 Usar **o mesmo post** (mesmo ID do anúncio) na campanha nova, para aproveitar curtidas e comentários.
 
-| Situação | Ação | Fonte |
-|---|---|---|
-| Não está gastando | Não mexe | Mentor |
-| Gastou 1 ticket e tem 0 vendas | Desativa | Mentor |
-| Gastou 1 ticket e tem 2 ou mais vendas | +20% de orçamento por dia (dosar pelas métricas) | Mentor |
-| Gastou 1 ticket e tem 1 venda | ⚠️ A CONFIRMAR | Não falado |
-| Melhor criativo | Isolar em 1-1-1 | Mentor |
-| Quando diminuir o orçamento | ⚠️ Está na aula de escala até R$ 1 mil por dia | Aula |
-| Orçamento gastou mais que o definido (ex.: definiu 9, gastou 19) | Normal no alto volume quando o criativo está bom | Mentor |
-| Bid Cap não gasta antes de 30 a 50 vendas | Normal. Fique no alto volume | Mentor |
-| Chegou a 30–50 vendas no pixel | Melhor ROAS vai para Bid Cap (Fase 3) | Mentor |
-
-## Decisões por país e por oferta
-
+### 3) Campanhas de ESCALA: ajustar orçamento
 | Situação | Ação |
 |---|---|
-| País com menos de 5 dias | Não julgar ainda |
-| País com 5 dias ou mais, sem ROI | Testar em outro país (pode haver concorrente parecido rodando) |
-| País vendendo | Levar para mais países, na mesma conta |
-| Oferta que vendeu | Manter no mínimo 14 dias e em mais países antes de abandonar |
-| Vontade de trocar de oferta ou nicho | Não fazer. Insistir na que já vende ("todos os nichos dão certo") |
-| Nova oferta | Nova conta de anúncio. Pixel novo se o nicho for novo |
+| Bateu 1 ticket e tem 2 ou mais vendas, com bom retorno | **+20% de orçamento por dia** ✅ (no máximo 1 aumento por dia) |
+| Gastou mais do que o orçamento definido | Normal no alto volume ✅ |
+| Piorou | ⚠️ Quanto reduzir e quando desativar está na aula de escala até R$ 1 mil por dia |
+
+> **Os 20% vão sempre na campanha de ESCALA, nunca na de TESTE.**
+> O teste serve para **descobrir** o vencedor. A escala serve para **multiplicar** ele.
+
+### 4) Repor criativos NOVOS na campanha de teste
+- [ ] Para **cada criativo desativado**, entra **um criativo novo** na campanha de teste.
+- [ ] Manter a campanha de teste sempre com **5 a 10 criativos ativos**.
+- [ ] **Todo criativo novo entra primeiro na campanha de teste.** Nunca direto na escala.
+- [ ] 💡 Fazer variações dos vencedores (mesmo ângulo, outro gancho, formato ou imagem) **e também** estilos totalmente novos.
+
+### 5) Registrar e postar no grupo
+- [ ] Usar o modelo no fim deste documento. ✅ "Usa bastante o grupo."
+
+---
+
+# PARTE 4: PRODUÇÃO CONTÍNUA DE CRIATIVOS
+
+O mentor foi claro: **criativo é volume** ✅. A campanha de teste precisa de reposição constante.
+
+| Item | Meta |
+|---|---|
+| Estoque inicial | ~50 criativos antes ou logo depois do lançamento |
+| Ritmo de produção | 💡 pelo menos **5 a 10 criativos novos por semana, por oferta** (repor o que foi desativado) |
+| Ferramentas | ✅ Grok (mais rápido hoje) e Claude |
+| Estilos | ✅ "Todos os estilos possíveis": foto, vídeo, depoimento, antes e depois, problema e solução, carrossel… |
+| Fonte de ideias | Pinterest, TikTok e biblioteca de anúncios (o que vocês já faziam) |
+| Depois de achar vencedores | 💡 50% variações dos vencedores e 50% ideias novas |
+
+### Ciclo semanal sugerido 💡
+| Dia | Tarefa |
+|---|---|
+| Segunda | Produzir o lote de criativos novos da semana |
+| Todo dia | Rotina de otimização (Parte 3) + repor as vagas abertas no teste |
+| Sexta | Revisar a semana: quais estilos e ângulos venceram e quais perderam → orienta o próximo lote |
+
+### Nome dos criativos 💡
+`[OFERTA]-[Nº]-[ESTILO]-[ÂNGULO]` → ex.: `EDU-INF-023-VIDEO-DOR-MAE`
+Isso ajuda a ver no relatório qual estilo e qual ângulo vendem mais.
+
+---
+
+## Atenção ⚠️
+
+Colocar criativo novo dentro do mesmo conjunto faz o Facebook **reajustar a entrega** do conjunto. Isso é comportamento da plataforma, não foi dito na call. Duas formas de lidar:
+- Fazer as trocas **uma vez por dia, todas juntas**, em vez de mexer várias vezes ao dia. 💡
+- Se a campanha de teste ficar instável, abrir uma **campanha de teste nova por lote** (ex.: `TESTE LOTE 2`) em vez de mexer na antiga. ⚠️ Perguntar ao mentor qual ele prefere.
+
+---
 
 ## O que NÃO fazer
-
-- ❌ Copiar a otimização do gestor de tráfego local do Brasil. É outra lógica.
+- ❌ Aumentar 20% na campanha de teste.
+- ❌ Colocar criativo novo direto na campanha de escala.
 - ❌ Pausar o que não está gastando.
-- ❌ Subir só 5 criativos e ficar parado.
-- ❌ Gastar R$ 30 por dia. Isso deixa o aprendizado 5 a 10 vezes mais lento.
+- ❌ Pausar o vencedor na campanha de teste.
+- ❌ Dobrar o orçamento de uma vez.
+- ❌ Ficar com menos de 5 criativos ativos no teste.
 - ❌ Testar um país de cada vez.
-- ❌ Abandonar uma oferta que já vendeu depois de poucos dias.
-- ❌ Comprar conta de anúncio "aquecida".
-- ❌ Ficar em silêncio no grupo. Tem mentorado mandando 100 a 200 mensagens por dia.
+- ❌ Abandonar uma oferta que já vendeu antes de 14 dias.
+- ❌ Copiar a lógica do gestor de tráfego local do Brasil.
+
+---
 
 ## Modelo de mensagem diária para o grupo
 
 ```
-📊 [Oferta: Educação infantil] — Dia X — [data]
-Conta: ___ | Países: PT / IT / FR
+📊 [Educação infantil] — Dia X — [data]
+Países: PT / IT / FR | Gasto: ___ | Vendas: ___ | ROAS: ___
 
-Gasto total: ___ | Vendas: ___ | ROAS: ___
-Por país: PT ___ | IT ___ | FR ___
+🧪 TESTE
+- Ativos: __ criativos
+- Desativei: __ (1 ticket, 0 vendas)
+- Vencedores: __ (1 ticket, 2+ vendas) → isolados em 1-1-1
+- Novos que entraram: __
 
-Ações de hoje:
-- Desativei: criativos __ (gastaram 1 ticket, 0 vendas)
-- Aumentei 20%: criativos __ (2+ vendas)
-- Isolei em 1-1-1: criativo __
-- Não mexi: __ (sem gasto)
+🚀 ESCALA
+- Criativo X: gasto __ | vendas __ | ROAS __ → +20% / mantive / reduzi
+- Criativo Y: ...
 
-Dúvida: Na aula "___" você disse para ___. Fiz isso e aconteceu ___. Está certo?
+❓ Dúvida: Na aula "___" você disse ___. Fiz ___ e aconteceu ___. Está certo?
 ```
 
 ---
 
-## Metas da primeira quinzena
+## Perguntas para o grupo ⚠️
+1. "Testo em **1 campanha / 1 conjunto / 5 a 10 criativos**. Quando um criativo bate 1 ticket com 2 vendas, eu **isolo ele numa CBO 1-1-1 nova**, subo 20% ao dia nela e mantenho ele na campanha de teste. Está certo?"
+2. "Os criativos novos eu coloco **na mesma campanha de teste** ou abro uma campanha de teste nova a cada lote?"
+3. "Qual é o critério de **criativo validado**? E o que faço quando ele gasta 1 ticket e faz só **1 venda**?"
+4. "Na escala, **quando e quanto reduzo** o orçamento se o ROAS cair?"
 
+---
+
+## Metas da primeira quinzena
 | Indicador | Antes | Meta |
 |---|---|---|
 | Investimento por dia | ~R$ 30 | R$ 120 a 150 |
 | Criativos testados | 5 a 10 | ~50 |
-| Países ao mesmo tempo | 1 (Portugal) | 3 ou mais |
+| Criativos ativos no teste | — | sempre entre 5 e 10 |
+| Países ao mesmo tempo | 1 | 3 ou mais |
 | Mensagens no grupo | poucas | todo dia, com métricas |
 | Aulas ao vivo | 2 | todas |
 | Vendas no pixel | — | caminhar para 30 a 50 (gatilho do Bid Cap) |
