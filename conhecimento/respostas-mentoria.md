@@ -25,3 +25,19 @@ Respostas às dúvidas enviadas no grupo depois da call de 23/11/2026.
 
 > A conta de anúncio está em **dólar**: converter esses valores no câmbio do dia antes de configurar.
 > Com ticket baixo (€ 7,99), **não subir o lance**. Se não gastar, a solução é **criativo novo em conjunto novo**.
+
+### Complemento (21:00–21:01): se o Bid Cap não gastar
+- **Primeiro:** conferir se o **pixel está recebendo a compra**.
+- Se o conjunto não gasta, é porque **não consegue pagar aquele lance**.
+- **Subir o lance aos poucos**, ~20% por vez (exemplo do mentor: de 100 para 120).
+- **Teto do lance = break-even = ticket médio.** Só sobe enquanto o lance continuar **abaixo do ticket médio**.
+- **Continuar subindo criativo novo, em conjunto novo, a cada 2 dias.**
+
+> Ajuste em relação à primeira resposta: antes ele disse "subir o lance só se o ticket for alto". No complemento, a regra ficou: **pode subir aos poucos, desde que não passe do ticket médio**.
+
+### Aplicado à nossa oferta
+- Lance inicial: **~€ 12** (1,5 × € 7,99).
+- Ticket médio = € 7,99 + o que entra de bumps (€ 4, € 3, € 2). Vai de € 7,99 (ninguém pega bump) a € 16,99 (todo mundo pega todos).
+- **Atenção:** se o ticket médio real for **menor que € 12**, o lance inicial já está **acima** do break-even. Nesse caso, **não subir o lance**. Usar criativo novo em conjunto novo.
+- Se o ticket médio for, por exemplo, € 15: dá para subir € 12 → ~€ 14,40 e parar aí (abaixo de € 15).
+- ⚠️ Pegar o **ticket médio real na Hotmart** (faturamento ÷ nº de vendas) antes de configurar.
