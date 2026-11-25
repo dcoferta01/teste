@@ -81,3 +81,23 @@ Respostas às dúvidas enviadas no grupo depois da call de 23/11/2026.
 - **Se continuar ruim por 3 dias:** manda no grupo o **período inteiro + os últimos 7 dias**, que a mentoria analisa.
 - **Subiu o orçamento e piorou:** **volta para o orçamento anterior**. Costuma normalizar.
 - **Campanha no prejuízo e sem vender nada em 3 dias:** **pausa** e parte para o próximo teste.
+
+---
+
+## Criativo novo, orçamento do teste e países
+*Resposta no grupo de suporte, 21:11–21:13*
+
+**Onde entra o criativo novo:**
+- Sobe numa **campanha nova, mesma estrutura (CBO 1-1-X)**. Não joga criativo novo na campanha que já está rodando: **mexer em campanha ativa prejudica e derruba a performance**.
+- **Conjunto novo dentro da CBO nem gasta direito.**
+- **Cada lote novo é uma campanha nova com 40 de orçamento.**
+
+**Orçamento da campanha de teste:**
+- O orçamento de **9 (~R$ 40)** vale para a **campanha de teste CBO 1-1-X**. O orçamento é **da campanha, não do criativo**: 9 por campanha, seja 1-1-5 ou mais.
+- **Mais criativos no conjunto não exigem orçamento maior.** A Meta distribui entre eles. Se tiver caixa, pode colocar mais, mas **o padrão é esse**.
+
+**Países:**
+- Rodar o mesmo produto em 3 países ao mesmo tempo: **o time sobe separado**.
+- **Traduz e adapta para cada país**, cria **um Instagram no idioma de lá** e **começa do zero na estrutura de teste** (CBO 1-1-X, 40 de orçamento).
+- **Mesmo preço**, pode usar **o mesmo pixel**.
+- **Não junta os países numa campanha só.**
