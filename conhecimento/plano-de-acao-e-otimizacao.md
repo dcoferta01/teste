@@ -79,6 +79,11 @@ CONTA DE ANÚNCIO (1 por oferta) ✅
 - [ ] ✅ A campanha de escala com **maior ROAS** vai para **Bid Cap**.
   - **Opção A:** transformar essa campanha em Bid Cap e desativar as outras de escala.
   - **Opção B:** manter as CBO ativas, se estiverem muito boas, e abrir **outra conta** com CBO em Bid Cap.
+- [ ] ✅ **Configuração do Bid Cap** (resposta do grupo, front € 7,99):
+  - **Orçamento:** 2 a 3 × o ticket = **€ 16 a 24 por dia**. Com 60+ criativos, até 6 × = **~€ 48 por dia**. Depois, sobe aos poucos.
+  - **Lance:** 1,5 × o ticket do front = **~€ 12**. Não usar custo por venda nem ticket médio. Converter para dólar no câmbio do dia.
+  - **Não gastou com lance entre € 10,40 e 12?** O problema é criativo ou oferta → **subir mais criativos em conjuntos novos**.
+  - **Não subir o lance**: com ticket baixo, isso não resolve.
 - [ ] A campanha de teste **continua rodando** recebendo criativos novos.
 
 ---
