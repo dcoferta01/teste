@@ -55,3 +55,16 @@ Respostas às dúvidas enviadas no grupo depois da call de 23/11/2026.
 - Na escala: **sobe 20% por vez**, de acordo com vendas e ROI.
 - **Se piorar por alguns dias, deixa rodar.**
 - **Criativo novo vai sempre em campanha nova**, com a mesma estrutura. **Não joga no lugar dos desativados** na campanha de teste. **Cada lote é uma campanha.**
+
+---
+
+## Criativo validado, 1 venda e regra dos 3 dias
+*Resposta no grupo de suporte, 21:03*
+
+**Pergunta:** qual é o critério de criativo validado (vendas ou ROAS)? E quando ele gasta 1 ticket e faz só 1 venda?
+
+**Resposta:**
+- **Criativo validado é o que está no lucro olhando o período inteiro**, não um número fixo de vendas.
+- **Gastou 1 ticket e fez 1 venda: não mexe nele ainda.**
+- **Deixa rodar os 3 dias da campanha sem mexer.** No fim do 3º dia, manda as métricas da campanha (**CPC, CTR, gasto, ROAS**) no grupo, que a mentoria analisa e decide.
+- **Se a campanha está no lucro, nem precisa desativar os que não vendem.**

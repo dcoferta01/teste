@@ -98,23 +98,32 @@ CONTA DE ANÚNCIO (1 por oferta) ✅
 
 ## Rotina diária, na ordem
 
-### 1) Campanha de TESTE: revisar cada criativo
+### 1) Campanha de TESTE: regra dos 3 dias ✅
+
+**Dias 1, 2 e 3 de cada campanha de teste: NÃO MEXE EM NADA.** Não desativa, não muda orçamento, só acompanha.
+
+**Fim do 3º dia:** mandar no grupo as métricas da campanha (**CPC, CTR, gasto e ROAS**). A mentoria analisa e decide com vocês.
+
+**A partir do 4º dia** (depois do feedback da mentoria):
 
 ```
-Para cada criativo da campanha de teste:
-
-Está gastando?
-├── NÃO ──► NÃO MEXE ✅
-└── SIM ──► Já gastou 1 ticket (o valor do preço do produto)?
-            ├── NÃO ──► Espera
-            └── SIM ──► Quantas vendas?
-                        ├── 0 vendas ──► DESATIVA ✅
-                        ├── 1 venda  ──► ⚠️ A CONFIRMAR (💡 até lá: deixa rodando até 2 tickets)
-                        └── 2+ vendas ─► Está NO LUCRO no período inteiro? ✅
-                                         ├── SIM ─► CAMPEÃO 🏆 → vai para o passo 2
-                                         └── NÃO ─► deixa rodando no teste
-                                                    (2 vendas sozinhas não bastam)
+A CAMPANHA de teste está no lucro (período inteiro)?
+├── SIM ──► NÃO precisa desativar os que não vendem ✅
+│           Criativo no lucro no período inteiro → CAMPEÃO 🏆 → passo 2
+└── NÃO ──► Revisar criativo por criativo:
+            Está gastando?
+            ├── NÃO ──► NÃO MEXE ✅
+            └── SIM ──► Já gastou 1 ticket (€ 7,99)?
+                        ├── NÃO ──► Espera
+                        └── SIM ──► Quantas vendas?
+                                    ├── 0 vendas ──► DESATIVA ✅
+                                    ├── 1 venda  ──► NÃO MEXE AINDA ✅
+                                    └── 2+ vendas ─► No lucro no período inteiro?
+                                                     ├── SIM ─► CAMPEÃO 🏆 → passo 2
+                                                     └── NÃO ─► deixa rodando
 ```
+
+> **Criativo validado = no lucro olhando o período inteiro.** Não existe número fixo de vendas. ✅
 
 ### 2) Campeão encontrado: criar a campanha de ESCALA
 - [ ] Critério de campeão ✅: **no lucro olhando o período inteiro**, não só por ter feito 2 vendas.
@@ -186,6 +195,8 @@ Resposta do mentor: **"Criativo novo vai sempre em campanha nova, mesma estrutur
 - ❌ Escalar um criativo só porque fez 2 vendas, sem estar no lucro no período inteiro.
 - ❌ Cortar a escala porque piorou por 1 ou 2 dias.
 - ❌ Pausar o que não está gastando.
+- ❌ Mexer na campanha de teste nos 3 primeiros dias.
+- ❌ Desativar criativos que não vendem quando a campanha inteira está no lucro.
 - ❌ Pausar o vencedor na campanha de teste.
 - ❌ Dobrar o orçamento de uma vez.
 - ❌ Testar um país de cada vez.
@@ -218,7 +229,7 @@ Países: PT / IT / FR | Gasto: ___ | Vendas: ___ | ROAS: ___
 ## Perguntas para o grupo ⚠️
 1. ✅ RESPONDIDA: estrutura de teste e isolamento em CBO 1-1-1 estão certos, mas o campeão precisa estar no lucro no período inteiro.
 2. ✅ RESPONDIDA: cada lote de criativos novos é uma campanha de teste nova.
-3. "Qual é o critério de **criativo validado**? E o que faço quando ele gasta 1 ticket e faz só **1 venda**?"
+3. ✅ RESPONDIDA: validado = no lucro no período inteiro. Com 1 venda, não mexe ainda. Regra dos 3 dias sem mexer.
 4. "Na escala, **quando e quanto reduzo** o orçamento se o ROAS cair?"
 
 ---
