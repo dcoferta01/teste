@@ -108,7 +108,7 @@ Está gastando?
 └── SIM ──► Já gastou 1 ticket (o valor do preço do produto)?
             ├── NÃO ──► Espera
             └── SIM ──► Quantas vendas?
-                        ├── 0 vendas ──► DESATIVA ✅ (abre uma vaga)
+                        ├── 0 vendas ──► DESATIVA ✅
                         ├── 1 venda  ──► ⚠️ A CONFIRMAR (💡 até lá: deixa rodando até 2 tickets)
                         └── 2+ vendas ─► Está NO LUCRO no período inteiro? ✅
                                          ├── SIM ─► CAMPEÃO 🏆 → vai para o passo 2
