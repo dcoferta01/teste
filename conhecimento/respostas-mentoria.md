@@ -24,7 +24,7 @@ Respostas às dúvidas enviadas no grupo depois da call de 23/11/2026.
 | Faixa em que "não gastar" = problema de criativo | 1,3 a 1,5 × € 7,99 | **€ 10,40 a 12** |
 
 > A conta de anúncio está em **dólar**: converter esses valores no câmbio do dia antes de configurar.
-> Com ticket baixo (€ 7,99), **não subir o lance**. Se não gastar, a solução é **criativo novo em conjunto novo**.
+> Regra atualizada no complemento abaixo: o lance pode subir aos poucos, mas nunca acima do ticket médio.
 
 ### Complemento (21:00–21:01): se o Bid Cap não gastar
 - **Primeiro:** conferir se o **pixel está recebendo a compra**.
