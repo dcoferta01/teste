@@ -82,8 +82,12 @@ CONTA DE ANÚNCIO (1 por oferta) ✅
 - [ ] ✅ **Configuração do Bid Cap** (resposta do grupo, front € 7,99):
   - **Orçamento:** 2 a 3 × o ticket = **€ 16 a 24 por dia**. Com 60+ criativos, até 6 × = **~€ 48 por dia**. Depois, sobe aos poucos.
   - **Lance:** 1,5 × o ticket do front = **~€ 12**. Não usar custo por venda nem ticket médio. Converter para dólar no câmbio do dia.
-  - **Não gastou com lance entre € 10,40 e 12?** O problema é criativo ou oferta → **subir mais criativos em conjuntos novos**.
-  - **Não subir o lance**: com ticket baixo, isso não resolve.
+  - **Estrutura:** **criativo novo em conjunto novo a cada 2 dias** dentro da campanha de Bid Cap.
+  - **Se não gastar**, nesta ordem:
+    1. Conferir se o **pixel está recebendo a compra**.
+    2. Subir **mais criativos em conjuntos novos**.
+    3. Subir o lance **aos poucos (~20% por vez)**, **só enquanto ficar abaixo do ticket médio** (o break-even).
+  - ⚠️ Pegar o **ticket médio real na Hotmart**. Se ele for menor que ~€ 12, o lance já está no teto: **não subir o lance**.
 - [ ] A campanha de teste **continua rodando** recebendo criativos novos.
 
 ---
