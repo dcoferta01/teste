@@ -41,3 +41,17 @@ Respostas às dúvidas enviadas no grupo depois da call de 23/11/2026.
 - **Atenção:** se o ticket médio real for **menor que € 12**, o lance inicial já está **acima** do break-even. Nesse caso, **não subir o lance**. Usar criativo novo em conjunto novo.
 - Se o ticket médio for, por exemplo, € 15: dá para subir € 12 → ~€ 14,40 e parar aí (abaixo de € 15).
 - ⚠️ Pegar o **ticket médio real na Hotmart** (faturamento ÷ nº de vendas) antes de configurar.
+
+---
+
+## Estrutura de teste, campeão e criativos novos
+*Resposta no grupo de suporte, 21:02*
+
+**Pergunta:** testar em 1 campanha / 1 conjunto / 5 a 10 criativos; quando um criativo bate 1 ticket com 2 vendas, isolar numa CBO 1-1-1, subir 20% e manter ele no teste. Criativos novos entram na mesma campanha de teste ou em uma nova?
+
+**Resposta:**
+- "Tá no caminho." **Isolar o campeão numa CBO 1-1-1 pode sim.**
+- **Critério de campeão:** ver se ele está **no lucro no período inteiro**, não só porque fez 2 vendas.
+- Na escala: **sobe 20% por vez**, de acordo com vendas e ROI.
+- **Se piorar por alguns dias, deixa rodar.**
+- **Criativo novo vai sempre em campanha nova**, com a mesma estrutura. **Não joga no lugar dos desativados** na campanha de teste. **Cada lote é uma campanha.**

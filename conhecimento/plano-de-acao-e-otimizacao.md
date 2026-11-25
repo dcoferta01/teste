@@ -2,8 +2,8 @@
 
 Baseado nas respostas do mentor na call de 23/11/2026 (resumo em `2026-11-23-call-mentoria-gerenciador.md`) e na estrutura que vocês definiram depois:
 
-> **Campanha de TESTE:** 1 campanha, 1 conjunto e 5 a 10 criativos. É onde **todo criativo novo** entra.
-> **Campanha de ESCALA:** CBO 1-1-1, só com um criativo vencedor. É onde o orçamento sobe 20% ao dia.
+> **Campanha de TESTE:** 1 campanha, 1 conjunto e 5 a 10 criativos. **Cada lote de criativos novos = uma campanha de teste NOVA.** ✅
+> **Campanha de ESCALA:** CBO 1-1-1, só com um criativo campeão. É onde o orçamento sobe 20% por vez. ✅
 
 Legenda: ✅ = dito pelo mentor · 💡 = sugestão minha (Claude) · ⚠️ = confirmar no grupo
 
@@ -14,13 +14,15 @@ Legenda: ✅ = dito pelo mentor · 💡 = sugestão minha (Claude) · ⚠️ = c
 ```
 CONTA DE ANÚNCIO (1 por oferta) ✅
 │
-├── 🧪 CAMPANHA DE TESTE: [Oferta] [País] TESTE
+├── 🧪 CAMPANHA DE TESTE: [Oferta] [País] TESTE LOTE 1
 │     └── 1 conjunto
-│           └── 5 a 10 criativos ativos
-│                 ├── criativo perdedor  → desativa
+│           └── 5 a 10 criativos
+│                 ├── criativo perdedor  → desativa (a vaga NÃO é reposta)
 │                 ├── criativo sem gasto → não mexe
-│                 ├── criativo vencedor  → continua aqui E é copiado para uma campanha de escala
-│                 └── vaga aberta        → entra criativo NOVO
+│                 └── criativo campeão   → continua aqui E é copiado para uma campanha de escala
+│
+├── 🧪 CAMPANHA DE TESTE: [Oferta] [País] TESTE LOTE 2   ← lote novo = campanha nova ✅
+│     └── 1 conjunto → 5 a 10 criativos NOVOS
 │
 ├── 🚀 CAMPANHA DE ESCALA: [Oferta] [País] ESCALA Criativo X  (CBO 1-1-1)
 │     └── 1 conjunto → 1 criativo vencedor → +20% de orçamento ao dia
@@ -108,11 +110,15 @@ Está gastando?
             └── SIM ──► Quantas vendas?
                         ├── 0 vendas ──► DESATIVA ✅ (abre uma vaga)
                         ├── 1 venda  ──► ⚠️ A CONFIRMAR (💡 até lá: deixa rodando até 2 tickets)
-                        └── 2+ vendas ─► VENCEDOR 🏆 → vai para o passo 2
+                        └── 2+ vendas ─► Está NO LUCRO no período inteiro? ✅
+                                         ├── SIM ─► CAMPEÃO 🏆 → vai para o passo 2
+                                         └── NÃO ─► deixa rodando no teste
+                                                    (2 vendas sozinhas não bastam)
 ```
 
-### 2) Vencedor encontrado: criar a campanha de ESCALA
-- [ ] Criar uma **CBO 1-1-1 nova** só com esse criativo ✅ ("isola ele no triplo um").
+### 2) Campeão encontrado: criar a campanha de ESCALA
+- [ ] Critério de campeão ✅: **no lucro olhando o período inteiro**, não só por ter feito 2 vendas.
+- [ ] Criar uma **CBO 1-1-1 nova** só com esse criativo ✅ ("isolar campeão numa CBO 1-1-1 pode sim").
 - [ ] Começar com o **orçamento inicial** (o "9", cerca de R$ 40 por dia).
 - [ ] 💡 **Não pausar** o vencedor na campanha de teste. Ele continua lá.
 - [ ] 💡 Usar **o mesmo post** (mesmo ID do anúncio) na campanha nova, para aproveitar curtidas e comentários.
@@ -120,17 +126,19 @@ Está gastando?
 ### 3) Campanhas de ESCALA: ajustar orçamento
 | Situação | Ação |
 |---|---|
-| Bateu 1 ticket e tem 2 ou mais vendas, com bom retorno | **+20% de orçamento por dia** ✅ (no máximo 1 aumento por dia) |
+| Vendendo e no lucro | **+20% por vez**, de acordo com vendas e ROI ✅ (💡 no máximo 1 aumento por dia) |
 | Gastou mais do que o orçamento definido | Normal no alto volume ✅ |
-| Piorou | ⚠️ Quanto reduzir e quando desativar está na aula de escala até R$ 1 mil por dia |
+| **Piorou por alguns dias** | **Deixa rodar** ✅. Não corta na hora |
+| Piorou por muito tempo | ⚠️ Quanto reduzir e quando desativar está na aula de escala até R$ 1 mil por dia |
 
 > **Os 20% vão sempre na campanha de ESCALA, nunca na de TESTE.**
 > O teste serve para **descobrir** o vencedor. A escala serve para **multiplicar** ele.
 
-### 4) Repor criativos NOVOS na campanha de teste
-- [ ] Para **cada criativo desativado**, entra **um criativo novo** na campanha de teste.
-- [ ] Manter a campanha de teste sempre com **5 a 10 criativos ativos**.
-- [ ] **Todo criativo novo entra primeiro na campanha de teste.** Nunca direto na escala.
+### 4) Criativos NOVOS = campanha de teste NOVA ✅
+- [ ] **Cada lote de 5 a 10 criativos novos vira uma campanha de teste nova**, com a mesma estrutura (1 campanha, 1 conjunto, 5 a 10 criativos).
+- [ ] **Não colocar** criativo novo no lugar dos desativados na campanha de teste antiga.
+- [ ] Nome: `[OFERTA] | [PAÍS] | TESTE LOTE N`.
+- [ ] **Todo criativo novo passa primeiro por uma campanha de teste.** Nunca vai direto para a escala.
 - [ ] 💡 Fazer variações dos vencedores (mesmo ângulo, outro gancho, formato ou imagem) **e também** estilos totalmente novos.
 
 ### 5) Registrar e postar no grupo
@@ -145,7 +153,7 @@ O mentor foi claro: **criativo é volume** ✅. A campanha de teste precisa de r
 | Item | Meta |
 |---|---|
 | Estoque inicial | ~50 criativos antes ou logo depois do lançamento |
-| Ritmo de produção | 💡 pelo menos **5 a 10 criativos novos por semana, por oferta** (repor o que foi desativado) |
+| Ritmo de produção | 💡 pelo menos **1 lote de 5 a 10 criativos novos por semana, por oferta**. Cada lote = 1 campanha de teste nova ✅ |
 | Ferramentas | ✅ Grok (mais rápido hoje) e Claude |
 | Estilos | ✅ "Todos os estilos possíveis": foto, vídeo, depoimento, antes e depois, problema e solução, carrossel… |
 | Fonte de ideias | Pinterest, TikTok e biblioteca de anúncios (o que vocês já faziam) |
@@ -155,7 +163,8 @@ O mentor foi claro: **criativo é volume** ✅. A campanha de teste precisa de r
 | Dia | Tarefa |
 |---|---|
 | Segunda | Produzir o lote de criativos novos da semana |
-| Todo dia | Rotina de otimização (Parte 3) + repor as vagas abertas no teste |
+| Todo dia | Rotina de otimização (Parte 3) |
+| Quando o lote ficar pronto | Subir uma campanha de teste nova com ele |
 | Sexta | Revisar a semana: quais estilos e ângulos venceram e quais perderam → orienta o próximo lote |
 
 ### Nome dos criativos 💡
@@ -164,21 +173,21 @@ Isso ajuda a ver no relatório qual estilo e qual ângulo vendem mais.
 
 ---
 
-## Atenção ⚠️
+## ✅ Resolvido: onde entram os criativos novos
 
-Colocar criativo novo dentro do mesmo conjunto faz o Facebook **reajustar a entrega** do conjunto. Isso é comportamento da plataforma, não foi dito na call. Duas formas de lidar:
-- Fazer as trocas **uma vez por dia, todas juntas**, em vez de mexer várias vezes ao dia. 💡
-- Se a campanha de teste ficar instável, abrir uma **campanha de teste nova por lote** (ex.: `TESTE LOTE 2`) em vez de mexer na antiga. ⚠️ Perguntar ao mentor qual ele prefere.
+Resposta do mentor: **"Criativo novo vai sempre em campanha nova, mesma estrutura, não joga no lugar dos desativados na campanha de teste, cada lote é uma campanha."**
 
 ---
 
 ## O que NÃO fazer
 - ❌ Aumentar 20% na campanha de teste.
 - ❌ Colocar criativo novo direto na campanha de escala.
+- ❌ Colocar criativo novo na campanha de teste antiga, no lugar dos desativados.
+- ❌ Escalar um criativo só porque fez 2 vendas, sem estar no lucro no período inteiro.
+- ❌ Cortar a escala porque piorou por 1 ou 2 dias.
 - ❌ Pausar o que não está gastando.
 - ❌ Pausar o vencedor na campanha de teste.
 - ❌ Dobrar o orçamento de uma vez.
-- ❌ Ficar com menos de 5 criativos ativos no teste.
 - ❌ Testar um país de cada vez.
 - ❌ Abandonar uma oferta que já vendeu antes de 14 dias.
 - ❌ Copiar a lógica do gestor de tráfego local do Brasil.
@@ -195,7 +204,7 @@ Países: PT / IT / FR | Gasto: ___ | Vendas: ___ | ROAS: ___
 - Ativos: __ criativos
 - Desativei: __ (1 ticket, 0 vendas)
 - Vencedores: __ (1 ticket, 2+ vendas) → isolados em 1-1-1
-- Novos que entraram: __
+- Lote novo subido hoje: sim / não (TESTE LOTE __)
 
 🚀 ESCALA
 - Criativo X: gasto __ | vendas __ | ROAS __ → +20% / mantive / reduzi
@@ -207,8 +216,8 @@ Países: PT / IT / FR | Gasto: ___ | Vendas: ___ | ROAS: ___
 ---
 
 ## Perguntas para o grupo ⚠️
-1. "Testo em **1 campanha / 1 conjunto / 5 a 10 criativos**. Quando um criativo bate 1 ticket com 2 vendas, eu **isolo ele numa CBO 1-1-1 nova**, subo 20% ao dia nela e mantenho ele na campanha de teste. Está certo?"
-2. "Os criativos novos eu coloco **na mesma campanha de teste** ou abro uma campanha de teste nova a cada lote?"
+1. ✅ RESPONDIDA: estrutura de teste e isolamento em CBO 1-1-1 estão certos, mas o campeão precisa estar no lucro no período inteiro.
+2. ✅ RESPONDIDA: cada lote de criativos novos é uma campanha de teste nova.
 3. "Qual é o critério de **criativo validado**? E o que faço quando ele gasta 1 ticket e faz só **1 venda**?"
 4. "Na escala, **quando e quanto reduzo** o orçamento se o ROAS cair?"
 
@@ -219,7 +228,7 @@ Países: PT / IT / FR | Gasto: ___ | Vendas: ___ | ROAS: ___
 |---|---|---|
 | Investimento por dia | ~R$ 30 | R$ 120 a 150 |
 | Criativos testados | 5 a 10 | ~50 |
-| Criativos ativos no teste | — | sempre entre 5 e 10 |
+| Campanhas de teste | 1 | 1 lote novo por semana (cada lote = 1 campanha) |
 | Países ao mesmo tempo | 1 | 3 ou mais |
 | Mensagens no grupo | poucas | todo dia, com métricas |
 | Aulas ao vivo | 2 | todas |
