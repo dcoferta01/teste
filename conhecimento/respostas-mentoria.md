@@ -68,3 +68,16 @@ Respostas às dúvidas enviadas no grupo depois da call de 23/11/2026.
 - **Gastou 1 ticket e fez 1 venda: não mexe nele ainda.**
 - **Deixa rodar os 3 dias da campanha sem mexer.** No fim do 3º dia, manda as métricas da campanha (**CPC, CTR, gasto, ROAS**) no grupo, que a mentoria analisa e decide.
 - **Se a campanha está no lucro, nem precisa desativar os que não vendem.**
+
+---
+
+## Escala: quando reduzir e quando pausar
+*Resposta no grupo de suporte, 21:06–21:07*
+
+**Pergunta:** na campanha de escala 1-1-1, se o ROAS cair, quando reduzir o orçamento e quanto? A partir de que ponto desativar?
+
+**Resposta:**
+- **ROAS caiu:** não mexe por causa de **um dia ruim**. Deixa rodar.
+- **Se continuar ruim por 3 dias:** manda no grupo o **período inteiro + os últimos 7 dias**, que a mentoria analisa.
+- **Subiu o orçamento e piorou:** **volta para o orçamento anterior**. Costuma normalizar.
+- **Campanha no prejuízo e sem vender nada em 3 dias:** **pausa** e parte para o próximo teste.

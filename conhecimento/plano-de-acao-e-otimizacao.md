@@ -137,8 +137,10 @@ A CAMPANHA de teste está no lucro (período inteiro)?
 |---|---|
 | Vendendo e no lucro | **+20% por vez**, de acordo com vendas e ROI ✅ (💡 no máximo 1 aumento por dia) |
 | Gastou mais do que o orçamento definido | Normal no alto volume ✅ |
-| **Piorou por alguns dias** | **Deixa rodar** ✅. Não corta na hora |
-| Piorou por muito tempo | ⚠️ Quanto reduzir e quando desativar está na aula de escala até R$ 1 mil por dia |
+| **ROAS caiu em 1 dia ruim** | **Não mexe. Deixa rodar** ✅ |
+| **Continua ruim depois de 3 dias** | Mandar no grupo o **período inteiro + os últimos 7 dias** para a mentoria analisar ✅ |
+| **Subiu o orçamento e piorou** | **Volta para o orçamento anterior**. Costuma normalizar ✅ |
+| **No prejuízo e sem nenhuma venda em 3 dias** | **Pausa** e parte para o próximo teste ✅ |
 
 > **Os 20% vão sempre na campanha de ESCALA, nunca na de TESTE.**
 > O teste serve para **descobrir** o vencedor. A escala serve para **multiplicar** ele.
@@ -230,7 +232,7 @@ Países: PT / IT / FR | Gasto: ___ | Vendas: ___ | ROAS: ___
 1. ✅ RESPONDIDA: estrutura de teste e isolamento em CBO 1-1-1 estão certos, mas o campeão precisa estar no lucro no período inteiro.
 2. ✅ RESPONDIDA: cada lote de criativos novos é uma campanha de teste nova.
 3. ✅ RESPONDIDA: validado = no lucro no período inteiro. Com 1 venda, não mexe ainda. Regra dos 3 dias sem mexer.
-4. "Na escala, **quando e quanto reduzo** o orçamento se o ROAS cair?"
+4. ✅ RESPONDIDA: ROAS caiu → não mexe por 1 dia ruim; 3 dias ruins → manda período inteiro + últimos 7 dias; subiu orçamento e piorou → volta ao anterior; prejuízo sem venda em 3 dias → pausa.
 
 ---
 
